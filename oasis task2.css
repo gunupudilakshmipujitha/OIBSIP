@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url(http://www.intertech.ps/images1/home_sec.jpg);
+    background-size: cover;
+    background-position:center;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin:20px 0px;
+}
+.last{
+    color:whitesmoke;
+    font-size: 45px;
+    cursor: pointer;
+}
+nav li{
+    font-family:century;
+    font-size:1.1rem;
+    font-weight:bold;
+}
+
+nav li a:hover{
+    background-color:wheat;
+    color:black;
+    box-shadow:0 0 10px white;
+}
+.head{
+    position:absolute;
+    top: 60%;
+    left:8%;
+    transform: translateY(-40%);
+}
+h2{
+    color:lightseagreen;
+    margin: 20px 0px 20px;
+    font-size: 50px;
+}
+h4 {
+color:white;
+    margin: 20px 0px 20px;
+    font-size: 20px;
+}
+.head1 form{
+    width: 280px;
+    max-width: 100%;
+    position: relative;
+}
+.head1 form input:first-child{
+    display: inline-block;
+    width:100%;
+    padding:14px 130px 14px 18px;
+    border: 2px plum;
+    border-radius: 30px;
+}
+.About{
+    width:100%;
+    padding: 50px 0px;
+    background-color:black;
+}
+.About img{
+    height:auto;
+    width:500px;
+}
+.about-text{
+    width: 550px;
+}
+.about{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    width:1190px;
+    max-width: 85%;
+    margin: 0 auto;
+    
+}
+.about-text h1{
+    color:lightgoldenrodyellow;
+    font: size 95px;
+    text-transform:capitalize;
+    margin-bottom:20px;
+}
+.about-text h4{
+    color:yellowgreen;
+    font: size 25px;
+    text-transform:capitalize;
+    margin-bottom:20px;
+}
+.about-text p{
+    letter-spacing:1px;
+    color:lavender;
+    line-height:28px ;
+    font-size:18px;
+    margin-bottom: 40px;
+}
+.main{
+    background: #101010;
+    width:100%;
+    padding: 100px 20px;
+}
+.title h2{
+    color:white;
+    font-size: 75px;
+    width: 1130px;
+    margin:30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.d9bhik0PoV8rBRwpi4iPawHaDe&pid=Api&P=0);
+}
+.cards{
+    height:365px;
+    width:335px;
+    padding:20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position:relative;
+    overflow: hidden;
+    text-align: center;
+}
+.cards i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin:25px 0px;
+    color:purple;
+}
+h5{
+    color:white;
+    font-size: 35px;
+    margin-bottom:15px;
+}
+.pra p{
+    letter-spacing:1px;
+    color:#fcfc;
+    line-height:28px ;
+    font-size:18px;
+    margin-bottom: 40px;
+}
+.cards .button{
+    background-color: purple;
+    color: white;
+    padding :13px 30px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .4s;
+}
+.cards .button:hover{
+    background-color: transparent;
+    border: 2px solid purple;
+    cursor: pointer;
+}
