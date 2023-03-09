@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:slategrey
+}
+#convert{
+    margin-top:10px;
+    background-color: palevioletred;
+    border:1px solid rgba(27, 31, 35, .15);
+    border-radius:6px;
+    box-sizing:border-box;
+    color:#fff;
+    cursor:pointer;
+    display:inline-block;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:14px;
+    font-weight:600;
+    line-height:20px;
+    padding:relative;
+    text-align:center;
+    text-decoration:none;
+    user-select:none;
+    -webkit-user-select: none;
+    touch-action:manipulation;
+    vertical-align:middle;
+    white-space:nowrap;
+}#clear{
+        margin-top:10px;
+        background-color: palevioletred;
+        border:1px solid rgba(27, 31, 35, .15);
+        border-radius:6px;
+        box-sizing:border-box;
+        color:#fff;
+        cursor:pointer;
+        display:inline-block;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size:14px;
+        font-weight:600;
+        line-height:20px;
+        padding:6px 16px;
+        position:relative;
+        text-align:center;
+        text-decoration:none;
+        user-select:none;
+        -webkit-user-select: none;
+        touch-action:manipulation;
+        vertical-align:middle;
+        white-space:nowrap;
+}
+#convert:hover{
+    background-color: palevioletred;
+}
+h1{
+    margin-top:15%;
+    font-family: sans-serif;
+    color: black;
+}
+input{
+    display: block;
+    padding: 20px;
+    margin:20px;
+    margin-top: 10px;
+    font-size: 1em;
+    color: yellowgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+::-webkit-input-placeholder{
+    color:black;
+}
+:-ms-input-placeholder{
+    color: black;
+}
+button{
+    padding: 8px;
+    font-size: 1.2em;
+    color: palevioletred;
+}
